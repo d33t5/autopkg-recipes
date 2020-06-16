@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Comment</key>
+	<string>Differs from jleggat-recipe. In order to add CodeSignatureVerifier app needs to be unzipped. This change would break upstream recipes</string>
 	<key>Description</key>
-	<string>Downloads the latest version of AppCleaner. Differs from jleggat-recipe. In order to add CodeSignatureVerifier app needs to be unzipped. This change would break upstream recipes</string>
+	<string>Downloads the latest version of AppCleaner.</string>
 	<key>Identifier</key>
 	<string>com.github.d33t5.download.AppCleaner</string>
 	<key>Input</key>
